@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83E1D28B28BAC344008A1BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D28A28BAC344008A1BA6 /* AppDelegate.swift */; };
+		83E1D28F28BAC344008A1BA6 /* WorldMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D28E28BAC344008A1BA6 /* WorldMapViewController.swift */; };
+		83E1D29428BAC34A008A1BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E1D29328BAC34A008A1BA6 /* Assets.xcassets */; };
+		83E1D29728BAC34A008A1BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E1D29528BAC34A008A1BA6 /* LaunchScreen.storyboard */; };
+		83E1D2A228BAC34A008A1BA6 /* Forex_World_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D2A128BAC34A008A1BA6 /* Forex_World_ClockTests.swift */; };
+		83E1D2AC28BAC34B008A1BA6 /* Forex_World_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D2AB28BAC34B008A1BA6 /* Forex_World_ClockUITests.swift */; };
+		83E1D2AE28BAC34B008A1BA6 /* Forex_World_ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D2AD28BAC34B008A1BA6 /* Forex_World_ClockUITestsLaunchTests.swift */; };
+		83E1D2BD28BACF5F008A1BA6 /* WorldMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D2BC28BACF5F008A1BA6 /* WorldMapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83E1D29E28BAC34A008A1BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E1D27F28BAC344008A1BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E1D28628BAC344008A1BA6;
+			remoteInfo = "Forex World Clock";
+		};
+		83E1D2A828BAC34B008A1BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E1D27F28BAC344008A1BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E1D28628BAC344008A1BA6;
+			remoteInfo = "Forex World Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83E1D28728BAC344008A1BA6 /* Forex World Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forex World Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E1D28A28BAC344008A1BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83E1D28E28BAC344008A1BA6 /* WorldMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMapViewController.swift; sourceTree = "<group>"; };
+		83E1D29328BAC34A008A1BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83E1D29628BAC34A008A1BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83E1D29828BAC34A008A1BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E1D29D28BAC34A008A1BA6 /* Forex World ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forex World ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E1D2A128BAC34A008A1BA6 /* Forex_World_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forex_World_ClockTests.swift; sourceTree = "<group>"; };
+		83E1D2A728BAC34B008A1BA6 /* Forex World ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forex World ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E1D2AB28BAC34B008A1BA6 /* Forex_World_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forex_World_ClockUITests.swift; sourceTree = "<group>"; };
+		83E1D2AD28BAC34B008A1BA6 /* Forex_World_ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forex_World_ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83E1D2BC28BACF5F008A1BA6 /* WorldMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83E1D28428BAC344008A1BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E1D29A28BAC34A008A1BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E1D2A428BAC34A008A1BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83E1D27E28BAC344008A1BA6 = {
+			isa = PBXGroup;
+			children = (
+				83E1D28928BAC344008A1BA6 /* Forex World Clock */,
+				83E1D2A028BAC34A008A1BA6 /* Forex World ClockTests */,
+				83E1D2AA28BAC34B008A1BA6 /* Forex World ClockUITests */,
+				83E1D28828BAC344008A1BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83E1D28828BAC344008A1BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83E1D28728BAC344008A1BA6 /* Forex World Clock.app */,
+				83E1D29D28BAC34A008A1BA6 /* Forex World ClockTests.xctest */,
+				83E1D2A728BAC34B008A1BA6 /* Forex World ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83E1D28928BAC344008A1BA6 /* Forex World Clock */ = {
+			isa = PBXGroup;
+			children = (
+				83E1D2BA28BAC699008A1BA6 /* Files */,
+				83E1D2BB28BAC778008A1BA6 /* WorldMap */,
+				83E1D28A28BAC344008A1BA6 /* AppDelegate.swift */,
+			);
+			path = "Forex World Clock";
+			sourceTree = "<group>";
+		};
+		83E1D2A028BAC34A008A1BA6 /* Forex World ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				83E1D2A128BAC34A008A1BA6 /* Forex_World_ClockTests.swift */,
+			);
+			path = "Forex World ClockTests";
+			sourceTree = "<group>";
+		};
+		83E1D2AA28BAC34B008A1BA6 /* Forex World ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83E1D2AB28BAC34B008A1BA6 /* Forex_World_ClockUITests.swift */,
+				83E1D2AD28BAC34B008A1BA6 /* Forex_World_ClockUITestsLaunchTests.swift */,
+			);
+			path = "Forex World ClockUITests";
+			sourceTree = "<group>";
+		};
+		83E1D2BA28BAC699008A1BA6 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				83E1D29328BAC34A008A1BA6 /* Assets.xcassets */,
+				83E1D29528BAC34A008A1BA6 /* LaunchScreen.storyboard */,
+				83E1D29828BAC34A008A1BA6 /* Info.plist */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		83E1D2BB28BAC778008A1BA6 /* WorldMap */ = {
+			isa = PBXGroup;
+			children = (
+				83E1D28E28BAC344008A1BA6 /* WorldMapViewController.swift */,
+				83E1D2BC28BACF5F008A1BA6 /* WorldMapView.swift */,
+			);
+			path = WorldMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83E1D28628BAC344008A1BA6 /* Forex World Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E1D2B128BAC34B008A1BA6 /* Build configuration list for PBXNativeTarget "Forex World Clock" */;
+			buildPhases = (
+				83E1D28328BAC344008A1BA6 /* Sources */,
+				83E1D28428BAC344008A1BA6 /* Frameworks */,
+				83E1D28528BAC344008A1BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forex World Clock";
+			productName = "Forex World Clock";
+			productReference = 83E1D28728BAC344008A1BA6 /* Forex World Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83E1D29C28BAC34A008A1BA6 /* Forex World ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E1D2B428BAC34B008A1BA6 /* Build configuration list for PBXNativeTarget "Forex World ClockTests" */;
+			buildPhases = (
+				83E1D29928BAC34A008A1BA6 /* Sources */,
+				83E1D29A28BAC34A008A1BA6 /* Frameworks */,
+				83E1D29B28BAC34A008A1BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E1D29F28BAC34A008A1BA6 /* PBXTargetDependency */,
+			);
+			name = "Forex World ClockTests";
+			productName = "Forex World ClockTests";
+			productReference = 83E1D29D28BAC34A008A1BA6 /* Forex World ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83E1D2A628BAC34A008A1BA6 /* Forex World ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E1D2B728BAC34B008A1BA6 /* Build configuration list for PBXNativeTarget "Forex World ClockUITests" */;
+			buildPhases = (
+				83E1D2A328BAC34A008A1BA6 /* Sources */,
+				83E1D2A428BAC34A008A1BA6 /* Frameworks */,
+				83E1D2A528BAC34A008A1BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E1D2A928BAC34B008A1BA6 /* PBXTargetDependency */,
+			);
+			name = "Forex World ClockUITests";
+			productName = "Forex World ClockUITests";
+			productReference = 83E1D2A728BAC34B008A1BA6 /* Forex World ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83E1D27F28BAC344008A1BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					83E1D28628BAC344008A1BA6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					83E1D29C28BAC34A008A1BA6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 83E1D28628BAC344008A1BA6;
+					};
+					83E1D2A628BAC34A008A1BA6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 83E1D28628BAC344008A1BA6;
+					};
+				};
+			};
+			buildConfigurationList = 83E1D28228BAC344008A1BA6 /* Build configuration list for PBXProject "Forex World Clock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83E1D27E28BAC344008A1BA6;
+			productRefGroup = 83E1D28828BAC344008A1BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83E1D28628BAC344008A1BA6 /* Forex World Clock */,
+				83E1D29C28BAC34A008A1BA6 /* Forex World ClockTests */,
+				83E1D2A628BAC34A008A1BA6 /* Forex World ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83E1D28528BAC344008A1BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E1D29728BAC34A008A1BA6 /* LaunchScreen.storyboard in Resources */,
+				83E1D29428BAC34A008A1BA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E1D29B28BAC34A008A1BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E1D2A528BAC34A008A1BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83E1D28328BAC344008A1BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E1D2BD28BACF5F008A1BA6 /* WorldMapView.swift in Sources */,
+				83E1D28F28BAC344008A1BA6 /* WorldMapViewController.swift in Sources */,
+				83E1D28B28BAC344008A1BA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E1D29928BAC34A008A1BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E1D2A228BAC34A008A1BA6 /* Forex_World_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E1D2A328BAC34A008A1BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E1D2AC28BAC34B008A1BA6 /* Forex_World_ClockUITests.swift in Sources */,
+				83E1D2AE28BAC34B008A1BA6 /* Forex_World_ClockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83E1D29F28BAC34A008A1BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E1D28628BAC344008A1BA6 /* Forex World Clock */;
+			targetProxy = 83E1D29E28BAC34A008A1BA6 /* PBXContainerItemProxy */;
+		};
+		83E1D2A928BAC34B008A1BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E1D28628BAC344008A1BA6 /* Forex World Clock */;
+			targetProxy = 83E1D2A828BAC34B008A1BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83E1D29528BAC34A008A1BA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83E1D29628BAC34A008A1BA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83E1D2AF28BAC34B008A1BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83E1D2B028BAC34B008A1BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83E1D2B228BAC34B008A1BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUA84A9AEJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Forex World Clock/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netherchat.Forex-World-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83E1D2B328BAC34B008A1BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUA84A9AEJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Forex World Clock/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netherchat.Forex-World-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83E1D2B528BAC34B008A1BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUA84A9AEJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netherchat.Forex-World-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forex World Clock.app/Forex World Clock";
+			};
+			name = Debug;
+		};
+		83E1D2B628BAC34B008A1BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUA84A9AEJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netherchat.Forex-World-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forex World Clock.app/Forex World Clock";
+			};
+			name = Release;
+		};
+		83E1D2B828BAC34B008A1BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUA84A9AEJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netherchat.Forex-World-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Forex World Clock";
+			};
+			name = Debug;
+		};
+		83E1D2B928BAC34B008A1BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUA84A9AEJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netherchat.Forex-World-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Forex World Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83E1D28228BAC344008A1BA6 /* Build configuration list for PBXProject "Forex World Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E1D2AF28BAC34B008A1BA6 /* Debug */,
+				83E1D2B028BAC34B008A1BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E1D2B128BAC34B008A1BA6 /* Build configuration list for PBXNativeTarget "Forex World Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E1D2B228BAC34B008A1BA6 /* Debug */,
+				83E1D2B328BAC34B008A1BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E1D2B428BAC34B008A1BA6 /* Build configuration list for PBXNativeTarget "Forex World ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E1D2B528BAC34B008A1BA6 /* Debug */,
+				83E1D2B628BAC34B008A1BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E1D2B728BAC34B008A1BA6 /* Build configuration list for PBXNativeTarget "Forex World ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E1D2B828BAC34B008A1BA6 /* Debug */,
+				83E1D2B928BAC34B008A1BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83E1D27F28BAC344008A1BA6 /* Project object */;
+}
