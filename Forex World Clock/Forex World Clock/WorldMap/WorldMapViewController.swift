@@ -9,10 +9,13 @@ import UIKit
 
 class WorldMapViewController: UIViewController {
     
+    var timeLabel = UILabel()
+    
     let worldMapView = WorldMapView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         style()
         layout()
     }
@@ -21,6 +24,7 @@ class WorldMapViewController: UIViewController {
 extension WorldMapViewController {
     private func style() {
         worldMapView.translatesAutoresizingMaskIntoConstraints = false
+        timeLabel.translatesAutoresizingMaskIntoConstraints = false
     }
     private func layout() {
         view.addSubview(worldMapView)
@@ -30,7 +34,6 @@ extension WorldMapViewController {
             worldMapView.topAnchor.constraint(equalToSystemSpacingBelow: view.topAnchor, multiplier: 7),
             worldMapView.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 1),
             view.trailingAnchor.constraint(equalToSystemSpacingAfter: worldMapView.trailingAnchor, multiplier: 1)
-            
         ])
     }
 }

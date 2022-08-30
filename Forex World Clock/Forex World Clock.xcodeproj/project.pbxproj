@@ -15,6 +15,7 @@
 		83E1D2AC28BAC34B008A1BA6 /* Forex_World_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D2AB28BAC34B008A1BA6 /* Forex_World_ClockUITests.swift */; };
 		83E1D2AE28BAC34B008A1BA6 /* Forex_World_ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D2AD28BAC34B008A1BA6 /* Forex_World_ClockUITestsLaunchTests.swift */; };
 		83E1D2BD28BACF5F008A1BA6 /* WorldMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D2BC28BACF5F008A1BA6 /* WorldMapView.swift */; };
+		83E1D2BF28BBFC8C008A1BA6 /* TimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D2BE28BBFC8C008A1BA6 /* TimeCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		83E1D2AB28BAC34B008A1BA6 /* Forex_World_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forex_World_ClockUITests.swift; sourceTree = "<group>"; };
 		83E1D2AD28BAC34B008A1BA6 /* Forex_World_ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forex_World_ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		83E1D2BC28BACF5F008A1BA6 /* WorldMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMapView.swift; sourceTree = "<group>"; };
+		83E1D2BE28BBFC8C008A1BA6 /* TimeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				83E1D28E28BAC344008A1BA6 /* WorldMapViewController.swift */,
 				83E1D2BC28BACF5F008A1BA6 /* WorldMapView.swift */,
+				83E1D2BE28BBFC8C008A1BA6 /* TimeCalculator.swift */,
 			);
 			path = WorldMap;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E1D2BF28BBFC8C008A1BA6 /* TimeCalculator.swift in Sources */,
 				83E1D2BD28BACF5F008A1BA6 /* WorldMapView.swift in Sources */,
 				83E1D28F28BAC344008A1BA6 /* WorldMapViewController.swift in Sources */,
 				83E1D28B28BAC344008A1BA6 /* AppDelegate.swift in Sources */,

@@ -9,23 +9,54 @@ import Foundation
 import UIKit
 
 class WorldMapView: UIView {
+    var timer = Timer()
+    
+    var localTimeZoneAbbreviation: String { return TimeZone.current.abbreviation() ?? "" }//
+    let currentTime = Date()
+    let formatter = DateFormatter()
+    
+    var timeStringConversion = Int(0)
     
     let reportTitle = UITextField()
-    let newYorkTime = UITextField()
-    let londonTime = UITextField()
-    let frankfurtTime = UITextField()
-    let sydneyTime = UITextField()
-    let tokyoTime = UITextField()
-    let yourTime = UITextField()
+    let newYorkTime = UILabel()
+    let londonTime = UILabel()
+    let frankfurtTime = UILabel()
+    let sydneyTime = UILabel()
+    let tokyoTime = UILabel()
+    let yourTime = UILabel()
     
     let titleFont = UIFont(name: "Helvetica Neue", size: 28)
     let bodyFont = UIFont(name: "Helvetica Neue", size: 23)
     let localTimeFont = UIFont(name: "Helvetica Neue", size: 25)
     
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
+            let date = Date()
+            
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "h:mm a"
+            
+            let currentTime = dateFormatter.string(from: date)
+            let seconds = TimeZone.current.secondsFromGMT()
+            let hours = seconds/3600
+            let minutes = abs(seconds/60) % 60
+            
+            let tz = String(format: "%+.2d:%.2d", hours, minutes)
+            
+            print(seconds)
+            print(seconds/60)
+            print(tz)
+
+            self.localTimeZoneAdjuster()//===============================
+            
+            self.newYorkTime.text = "New York: " + currentTime
+            self.londonTime.text = "London: " + currentTime
+            self.frankfurtTime.text = "Frankfurt: " + currentTime
+            self.sydneyTime.text = "Sydney: " + currentTime
+            self.tokyoTime.text = "Tokyo: " + currentTime
+            self.yourTime.text = "Local time: " + currentTime
+        }
         style()
         layout()
     }
@@ -35,7 +66,7 @@ class WorldMapView: UIView {
     }
     
     override var intrinsicContentSize: CGSize {
-        return CGSize(width: 200, height: 255)
+        return CGSize(width: 240, height: 255)
     }
 }
 
@@ -50,38 +81,27 @@ extension WorldMapView {
         reportTitle.textColor = UIColor.lightGray
         reportTitle.font = titleFont
 
-        
         newYorkTime.translatesAutoresizingMaskIntoConstraints = false
-        newYorkTime.text = "New York: 3:00a.m."
         newYorkTime.textColor = UIColor.lightGray
         newYorkTime.font = bodyFont
 
-        
         londonTime.translatesAutoresizingMaskIntoConstraints = false
-        londonTime.text = "London: 8:00a.m."
         londonTime.textColor = UIColor.lightGray
         londonTime.font = bodyFont
 
-        
         frankfurtTime.translatesAutoresizingMaskIntoConstraints = false
-        frankfurtTime.text = "Frankfurt: 9:00a.m."
         frankfurtTime.textColor = UIColor.lightGray
         frankfurtTime.font = bodyFont
 
-        
         sydneyTime.translatesAutoresizingMaskIntoConstraints = false
-        sydneyTime.text = "Sydney: 3:00p.m."
         sydneyTime.textColor = UIColor.lightGray
         sydneyTime.font = bodyFont
 
-        
         tokyoTime.translatesAutoresizingMaskIntoConstraints = false
-        tokyoTime.text = "Tokyo: 4:00p.m."
         tokyoTime.textColor = UIColor.lightGray
         tokyoTime.font = bodyFont
         
         yourTime.translatesAutoresizingMaskIntoConstraints = false
-        yourTime.text = "Local Time: 12:00a.m."
         yourTime.textColor = UIColor.lightGray
         yourTime.font = localTimeFont
     }
@@ -112,4 +132,9 @@ extension WorldMapView {
             yourTime.topAnchor.constraint(equalToSystemSpacingBelow: tokyoTime.bottomAnchor, multiplier: 4)
         ])
     }
+    
+    func localTimeZoneAdjuster() {
+        //print(localTimeZoneAbbreviation.secondsFromGMT())
+    }
+    
 }
